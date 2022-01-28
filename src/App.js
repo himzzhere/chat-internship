@@ -51,7 +51,7 @@ function App() {
           </div>
           <div className="scrollbar scrollbar-thumb-gray-200 scrollbar-track-gray-600 w-full overflow-y-hidden mobile:h-[725px] desktop:h-[600px] mobile:ml-0 desktop:ml-20 flex flex-col desktop:flex-1 border-gray-200 desktop:border-2 mobile:rounded-none desktop:rounded-lg">
             <Navbar />
-            <header className="flex items items-center space-x-4 mobile:bg-white desktop:bg-[#303C6C] desktop:text-white mobile:rounded-none desktop:rounded-t-lg py-2 px-6 border-b-2 border-gray-200">
+            <header className="flex items items-center space-x-4 mobile:bg-white desktop:bg-[#303C6C] desktop:text-white mobile:rounded-none desktop:rounded-t-lg py-3 px-6 border-b-2 border-gray-200">
               <AiOutlineArrowLeft className="desktop:hidden" />
               <div className="flex items-center space-x-3 flex-1">
                 <div className="relative">
