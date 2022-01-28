@@ -16,9 +16,11 @@ function App() {
   console.log(window.screen.width);
   const sendMessage = (e) => {
     e.preventDefault();
-    const message = { input: messageRef.current.value };
-    setMessages([...messages, message]);
-    messageRef.current.value = "";
+    if (messageRef.current.value) {
+      const message = { input: messageRef.current.value };
+      setMessages([...messages, message]);
+      messageRef.current.value = "";
+    }
   };
   return (
     <div className="overflow-hidden h-screen flex font-body">

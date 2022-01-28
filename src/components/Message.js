@@ -1,6 +1,6 @@
 import React from "react";
 
-function Message({ recieved, profileimg, message }) {
+function Message({ time, recieved, profileimg, message }) {
   return (
     <div className={`flex items-start rounded ${!recieved && "justify-end"}`}>
       <img
